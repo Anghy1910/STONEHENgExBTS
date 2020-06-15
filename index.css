@@ -1,0 +1,272 @@
+body{
+    background-color: #DBE6CA;
+}
+body p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height:35px;
+    color: black;
+}
+.header{
+    background-color: white;
+    border: 2px solid #DDBEE6;
+    border-radius: 10px;
+}
+.Tituloprincipal{
+    background-color: #DBE6CA;
+}
+.Menu{
+    color: #C998E6;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Menu ul{
+    display: flex;
+}
+.Menu li{
+    display: inherit;
+}
+.Menu a{
+    color: #9745E6;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Menu a:hover{
+    background-color: #9745E6;
+    color: white;
+    border-radius: 10px;
+}
+.Tituloprincipal{
+    display: block;
+    background-color: #C998E6;
+    color: white;
+}
+.imgPrincipal{
+    display: block;
+    margin: auto;
+}
+#que_es{
+    width: 850px;
+    height: 740px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #F081E7;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 5px #D694AE;
+    display:inline-block;
+}
+.imagenquees{
+    border-radius: 10px;
+}
+#main{
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    min-height: 100px;
+}
+#main #que_es{
+    margin: auto;
+    padding: 4px;
+    order: 2;
+    flex: 3 1 60%;
+    font-family: arial;
+    font-size: 15px;
+    background-color: white;
+}
+.Tituloh2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A16CA5;
+}
+.descripcion{
+    width: 850px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #F081E7;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 5px #D694AE;
+    display:inline-block;
+    margin: 30px;
+    background-color: white;
+}
+.imgdescripcionp{
+    border-radius: 10px;
+}
+.conceptos{
+    display: flex;
+    margin: auto;
+}
+.conceptos p{
+    font-size: 16px;
+}
+.conceptos_box{
+    margin: 20px;
+    box-shadow: 0px 1px 8px 2px #BC82E6;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #DEF0E8;
+}
+.conceptos_box img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.Tituloconceptos{
+    color: #885599;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.Tituloh3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #A183E6;
+}
+#caracteristicas{
+    width: 850px;
+    height: 230px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #D697D2;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 5px #B37BD6;
+    display:inline-block;
+    line-height:25px;
+}
+#main2{
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    min-height: 66px;
+}
+#main2 #caracteristicas{
+    margin: auto;
+    padding: 4px;
+    order: 2;
+    flex: 3 1 60%;
+    font-family: arial;
+    font-size: 15px;
+    background-color: white;
+}
+.caracteristicas_conceptos{
+    width: 850px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #D697D2;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 5px #B37BD6;
+    display:inline-block;
+    margin: 30px;
+    background-color: white;
+    line-height:22px;
+}
+.Titulocaracteristicas{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    background-color: #E598EB;
+}
+.Collares{
+    display: flex;
+    margin: auto;
+}
+.collares_box{
+    margin: 15px;
+    box-shadow: 0px 2px 9px 3px #D6AEAC;
+    border-radius: 10px;
+    width: 48%;
+    background-color: white;
+}
+.Collares2{
+    display: flex;
+    margin: auto;
+}
+.collares2_box{
+    margin: 15px;
+    box-shadow: 0px 2px 9px 3px #D6AEAC;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.Titulodatos{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #E598EB;
+    color: white;
+}
+.parrafo_datos{
+    border: 2px solid #BF67B8;
+    border-top: 10px solid #F0AFC5;
+    padding: 20px;
+    margin: 30px;
+    height: 50px;
+    background-color: white;
+}
+.Titulopiedras{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #E598EB;
+    color: white;
+}
+.piedrasymiembros1{
+    display: flex;
+    margin: 0 auto;
+}
+.piedras_box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #F0AFC5;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+}
+.piedras_body{
+    font-family: Georgia;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px -10px 10px 2px #F0AFC5;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.piedrasymiembros2{
+    display: flex;
+    margin: 0 auto;
+}
+.piedras_box2{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #F0AFC5;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+}
+.piedras_body2{
+    font-family: Georgia;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px -10px 10px 2px #F0AFC5;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer{
+    background-color: white;
+    border: 3px solid #DDBEE6;
+}
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    color: #C998E6;
+    font-weight: bold;
+}
